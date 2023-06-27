@@ -1,0 +1,22 @@
+.passwordGeneratorContainerHeader {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.uniquepassword,.placeholder {
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: antiquewhite;
+    opacity: 0.4;
+}
+
+.copyBtn {
+    background-color: aquamarine;
+    width: 40%;
+    border: none;
+}

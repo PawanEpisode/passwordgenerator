@@ -1,0 +1,84 @@
+.lengthContainer {
+    position: relative;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: white;
+    height: 60px;
+}
+
+.lengthText,
+.lengthValue,
+.strengthText,
+.strengthValue {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.lengthValue {
+    position: absolute;
+    left: 30%;
+}
+
+.lengthValue,.strengthValue {
+    background-color: antiquewhite;
+    opacity: 0.4;
+}
+
+.lengthInput {
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    cursor: pointer;
+}
+
+.checkboxContainer,
+.strengthContainer,
+.ErrorContainer,
+.generateBtnContainer {
+    padding: 10px;
+    background-color: white;
+}
+
+.ErrorContainer{
+    font-size: 28px;
+    font-weight: 600;
+    color: red;
+}
+
+.checkboxOptions {
+    display: grid;
+    grid-template-columns: auto auto;
+    // background-color: antiquewhite;
+    gap: 10px;
+}
+
+.optionContainer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.optionInput {
+    width: 20px;
+    height: 20px;
+}
+
+.optionLabel {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.strengthSub {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+}
+
+.genBtn {
+    width: 100%;
+    background-color: rgb(242, 170, 76);
+    opacity: 0.4;
+    border: none;
+}
